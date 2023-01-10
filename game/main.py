@@ -12,7 +12,8 @@ def choose_options():
     return None, None
 
   computer_option = random.choice(options)
-
+  print("")
+  print('=' * 10)
   print('User option =>', user_option)
   print('Computer option =>', computer_option)
   return user_option, computer_option
